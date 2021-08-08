@@ -12,12 +12,12 @@
 
 <h2>Dependencies</h2>
 
-<h3>### Python 3.7.9</h3>
+<h3>- Python 3.7.9</h3>
 <p>
 Follow instructions to install the latest version of python for your platform in the [python docs](https://docs.python.org/3/using/windows.html?highlight=installing%20latest%20version%20python)
 </p>
 
-<h3>### PIP Dependencies</h3>
+<h3>- PIP Dependencies</h3>
 <p>
 
 ```bash
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 This will install all of the required packages for this project.
 </p>
 
-<h3>### Running the server</h3>
+<h3>- Running the server</h3>
 <p>
 To run the server inside the root directory, open a new terminal session, and run:
 
@@ -46,7 +46,7 @@ flask run
 <h2>Tasks</h2>
 <p> in order to use the app properly follow the fowling steps:
 </p><br>
-<h3>### Setup Auth0</h3>
+<h3>- Setup Auth0</h3>
 <ol>
     <li>Create a new Auth0 Account</li>
     <li>Select a unique tenant domain</li>
@@ -103,7 +103,7 @@ flask run
     </li>
 </ol>
 
-<h3>### Testing</h3>
+<h3>- Testing</h3>
 To run the unit tests, execute:
 
 ```bash
