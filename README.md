@@ -1,3 +1,4 @@
+![Image of Yaktocat](https://github.com/amr3986/cap/blob/master/Udacity-Logo_Blue-1.png)
 <h1>Casting Agency (Capstone Project)</h1>
 
 <h2>Description</h2>
