@@ -1,5 +1,5 @@
 export FLASK_APP=app.py
-export database_url="postgresql://postgres:3986@localhost:5432/agency2"
+export database_url="postgresql://oacivptqkkaqbg:2073954c24389633a4686484a859403015bb05ef2f468c08992911309464c84a@ec2-34-234-12-149.compute-1.amazonaws.com:5432/ddvpqnulpvtulf"
 export AUTH0_DOMAIN='dev-kotbr190.us.auth0.com'
 export ALGORITHMS=['RS256']
 export API_AUDIENCE='cap'
