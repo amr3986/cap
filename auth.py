@@ -1,19 +1,14 @@
-from flask import Flask, request, abort
 import json
+from flask import request, _request_ctx_stack
 from functools import wraps
 from jose import jwt
 from urllib.request import urlopen
 
 
-AUTH0_DOMAIN = 'coffe3986.us.auth0.com'
+AUTH0_DOMAIN = 'dev-kotbr190.us.auth0.com'
 ALGORITHMS = ['RS256']
-API_AUDIENCE = 'Agency'
+API_AUDIENCE = 'cap'
 
-## AuthError Exception
-'''
-AuthError Exception
-A standardized way to communicate auth failure modes
-'''
 class AuthError(Exception):
     def __init__(self, error, status_code):
         self.error = error
