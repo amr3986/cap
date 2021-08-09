@@ -24,10 +24,6 @@ def create_app(test_config=None):
 
 APP = create_app()
 
-def create_test(test_config=None):
-  return APP
-
-
 # Get actors
 @APP.route('/actors', methods=['GET'])
 @requires_auth('get:actors')
@@ -275,3 +271,6 @@ def unauthorized(error):
         "error": 401,
         "message": "Unauthorized , try later"
     }), 401
+
+if __name__ == '__main__':
+    APP.run(host='0.0.0.0', port=8080, debug=True)
