@@ -1,3 +1,5 @@
+export FLASK_APP=app.py
+export database_url="postgresql://postgres:3986@localhost:5432/agency2"
 export AUTH0_DOMAIN='dev-kotbr190.us.auth0.com'
 export ALGORITHMS=['RS256']
 export API_AUDIENCE='cap'
