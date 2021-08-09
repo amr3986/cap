@@ -4,8 +4,8 @@ from flask_sqlalchemy import SQLAlchemy
 import json
 
 database_name = "agency2"
-database_path = "postgresql://postgres:3986@localhost:5432/agency2"
-#database_path = "postgres://spxbxuvuberxlu:718fa88a257451d8610f1d7ba8c5846d5311fcc5c852b3d183fc4b6f6e3b629a@ec2-52-87-58-157.compute-1.amazonaws.com:5432/dfkkjhq9t9i85b"
+#database_path = "postgresql://postgres:3986@localhost:5432/agency2"
+database_path = "postgresql://postgres://pdkxzpqayrwuje:510fbca9aff18651413b5ec54e7946ba0c4380e001cb1498baaf573bfd30a10e@ec2-34-197-105-186.compute-1.amazonaws.co"
 
 db = SQLAlchemy()
 
